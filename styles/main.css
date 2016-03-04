@@ -20,7 +20,6 @@ header {
 article {
   width: 700px;
   height: 900px;
-  background-color: blue;
   float: left;
 }
 
@@ -91,5 +90,35 @@ nav li {
 }
 
 nav li a:hover {
-  
+  border-bottom: 1px solid blue;
+	color: blue;
+	transition: color 1s;
+
+}
+
+h2 {
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em
+}
+
+.author {
+  border: 2px solid orange;
+  border-radius: 50%;
+  width: 50px;
+  float: left;
+}
+
+h3 {
+  font-size: 10px;
+  float: left;
+  margin: 0 0 0 10px;
+
+}
+
+.von {
+  float: left;
+  text-decoration: none;
+  margin: 0 0 0 5px;
 }
