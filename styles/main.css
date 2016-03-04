@@ -10,8 +10,8 @@ body {
 header {
   width: 100%;
   height: 200px;
-  background: orange
-  url("http://prod.static.broncos.clubs.nfl.com/assets/images/imported/DEN/tickets-and-stadium/safamh_960x325.jpg") no-repeat;
+  background: darkblue
+  url("http://cmster.com/media/JR9Ag8YssMi3urxOmSJ1iPgX4eJM5pv2T6wHTDnY8tVF2IjDN9nBXA93ulFBxLxD.jpg") no-repeat;
   background-position: center;
   text-align: center;
 
@@ -19,13 +19,14 @@ header {
 }
 
 article {
-  width: 700px;
+  width: 530px;
   height: 900px;
   float: left;
+  margin: 0;
 }
 
 .sidebar {
-  width: 500px;
+  width: 321px;
   height: 900px;
   background-color: yellow;
   float: left;
@@ -98,7 +99,7 @@ nav li a:hover {
 }
 
 h2 {
-  color: blue;
+  color: #000;
   margin-left: auto;
   margin-right: auto;
   width: 400px;
@@ -137,4 +138,34 @@ h3 {
   margin: 0 auto;
   width: 300px;
   padding: 0 100px 0 0;
+}
+
+.two-columns {
+  width: 851px;
+  margin: 20px auto;
+}
+
+.peyton-p {
+  width: 530px;
+  float: left;
+  margin: 30px 0 0 0;
+  line-height: 1.5;
+}
+
+.peyton-p2 {
+  width: 530px;
+  float: left;
+  margin: 20px 0 0 0;
+  line-height: 1.5;
+}
+
+footer {
+  margin: 0 auto;
+  width: 851px;
+  background-color: red;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
 }
