@@ -37,6 +37,7 @@ h1 {
   margin: 0;
   padding: 25px 0 0 0;
   font-size: 3rem;
+  text-shadow: 4px 4px 4px #000000;
 
 }
 
@@ -44,7 +45,7 @@ small {
   color: orange;
 }
 
-img {
+.logo img {
  border-radius: 50%;
  border: 2px dotted orange;
  width: 50px;
@@ -103,6 +104,8 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width: 400px;
+  color: orange;
+  text-border: 1px solid blue;
 }
 
 .left-holder {
@@ -162,10 +165,32 @@ h3 {
 footer {
   margin: 0 auto;
   width: 851px;
-  background-color: red;
+  border: 1px solid #000;
 }
 
 .clearfix {
   overflow: auto;
   zoom: 1;
+}
+
+.images {
+  width: 212px;
+  float: left;
+  height: 141px;
+}
+
+.images img {
+  width: 212px;
+}
+
+.bottom-footer-box {
+  padding: 1px;
+  border-top: 1px solid #000;
+}
+
+.top-text {
+  text-align: center;
+  font-size: 3rem;
+  font-style: impact;
+  margin: 0 0 25px 0;
 }
