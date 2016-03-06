@@ -34,7 +34,7 @@ h1 {
   margin: 0;
   padding: 25px 0 0 0;
   font-size: 3rem;
-  text-shadow: 4px 4px 4px #000000;
+  text-shadow: 4px 4px 4px blue;
 
 }
 
@@ -101,11 +101,11 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width: 400px;
-  color: orange;
+  color: blue;
 }
 
 .author {
-  border: 2px solid orange;
+  border: 2px solid blue;
   border-radius: 50%;
   width: 50px;
   text-align: center;
@@ -138,11 +138,15 @@ h3 {
   width: 851px;
   margin: 0 auto;
   border: 1px solid #000;
+  background: darkblue
+  url("http://cdn.oboi7.com/content/images/2b/04/2b0419dac75f7723e9ba28034a56438c041ddb8e.jpg") no-repeat;
+  background-position: center;
+
 }
 
 p {
   width: 530px;
-  margin: 30px 0 0 0;
+  margin: 30px 0 0 5px;
   line-height: 1.5;
 }
 
@@ -151,6 +155,7 @@ footer {
   margin: 0 auto;
   width: 851px;
   border: 1px solid #000;
+  background-color: #00004d;
 }
 
 .clearfix {
@@ -195,11 +200,13 @@ footer {
   font-size: 3rem;
   font-style: impact;
   margin: 0 0 25px 0;
+  color: orange;
+  text-shadow: 4px 4px 4px black;
 }
 
 .right-author img {
   width: 50px;
-  border: 2px solid orange;
+  border: 2px solid blue;
   border-radius: 50%;
   display: block;
   margin: 50px auto;
@@ -213,7 +220,7 @@ footer {
 
 .VP a {
   text-decoration: none;
-  color: orange;
+  color: blue;
 }
 
 .VP a:hover {
@@ -234,13 +241,44 @@ footer {
 }
 
 .twitter ul li a {
-  color: gray;
+  color: blue;
 }
 
 h6 {
   font-size: 35px;
-  color: orange;
+  color: blue;
   font-style: impact;
   text-align: center;
   margin: 50px 0 0 0;
+}
+
+.p2 {
+line-height: 1.5;
+margin: 50px 0 0 5px;
+}
+
+.sb-photo {
+  display: block;
+  margin: 40px auto;
+  width: 150px;
+}
+
+.sb-photo img {
+  width: 150px;
+  height: 300;
+  border: 2px solid blue;
+}
+
+.ad {
+  float: right;
+  font-size: 10px;
+}
+.ad a {
+  text-decoration: none;
+  color: blue;
+}
+.ad a:hover {
+  transition: color 1s;
+  border-bottom: 1px solid blue;
+  color: blue;
 }
