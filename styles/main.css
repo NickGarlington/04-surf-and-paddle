@@ -303,8 +303,21 @@ margin: 50px 0 0 5px;
 .nav4 ul li {
   display: inline-block;
   margin: 35px 0 0 50px;
+  border-left: 1px solid orange;
 }
 
 .nav4 ul li a {
   color: orange;
 }
+
+.s-title {
+  margin: 75px auto 0 0;
+  font-size: 2rem;
+  color: blue;
+  text-shadow: 4px 4px 4px #000;
+}
+ .side-p {
+   margin: 30px 0 0 0;
+   line-height: 1.5;
+
+ }
